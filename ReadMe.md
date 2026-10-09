@@ -115,7 +115,7 @@ Adaptación del movimiento del cubo para perseguir de forma continua a la esfera
 ---
 
 #### Hitos y lógica implementada
-* **Vector dirección relativo:** Cálculo del vector que conecta ambos objetos mediante resta de posiciones ($\text{Posición}_{\text{Esfera}} - \text{Posición}_{\text{Cubo}}$).
+* **Vector dirección relativo:** Cálculo del vector que conecta ambos objetos mediante resta de posiciones ($\text{Posición}_{\text{Esfera}}$ - $\text{Posición}_{\text{Cubo}}$).
 * **Restricción de altura:** Anulación de la componente vertical ($\text{direccion.y} = 0$) para restringir la traslación al plano horizontal.
 * **Normalización de magnitud (`.normalized`):** Escalado del vector dirección a magnitud unitaria ($1.0$) para evitar aceleraciones o desaceleraciones no deseadas en función de la distancia.
 * **Integración temporal:** Traslación uniforme mediante `speed * Time.deltaTime` en coordenadas globales (`Space.World`).
