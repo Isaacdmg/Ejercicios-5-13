@@ -106,22 +106,6 @@ Adaptación de los esquemas de movimiento del cubo y la esfera para escalar el d
 
 ![Demostración Ejercicio 10](media/Ejercicio10.gif)
 
-### Ejercicio 10: Suavizado e independencia de frame rate mediante `Time.deltaTime`
-
-**Descripción:**
-Adaptación de los esquemas de movimiento del Cubo y la Esfera (desarrollados en el Ejercicio 9) para escalar el desplazamiento proporcionalmente al tiempo transcurrido entre fotogramas.
-
----
-
-#### Hitos y lógica implementada
-* **Uso de `Time.deltaTime`:** Incorporación del delta de tiempo en la ecuación de traslación:
-  $$\text{Desplazamiento} = \text{Dirección} \times \text{Speed} \times \text{Time.deltaTime}$$
-* **Independencia de rendimiento:** Corrección del cálculo para garantizar que la velocidad parametrizada en la variable `speed` represente **unidades reales por segundo** y no unidades por fotograma.
-* **Fluidez continuada:** Movimiento consistente y uniforme independientemente de variaciones o bajadas en los FPS de la ejecución.
-
----
-
-![Demostración Ejercicio 10](media/Ejercicio10.gif)
 
 ### Ejercicio 11: Persecución de objetivo con normalización de vector dirección
 
