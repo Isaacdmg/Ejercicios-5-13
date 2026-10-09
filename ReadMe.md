@@ -85,8 +85,6 @@ Implementación de esquemas de control independientes para dos objetos en escena
 * **Doble Control Independiente:** Asignación de scripts dedicados a cada objeto para independizar el manejo de entradas por hardware.
 * **Mapeo de Flechas (Cubo):** Control del movimiento horizontal ($X$) y vertical ($Y$) mediante `KeyCode.UpArrow`, `KeyCode.DownArrow`, `KeyCode.RightArrow` y `KeyCode.LeftArrow`.
 * **Mapeo WASD (Esfera):** Control paralelo de movimiento horizontal y vertical utilizando la combinación clásica de teclas `W`, `A`, `S` y `D`.
-* **Suavizado temporal:** Aplicación de `Time.deltaTime` en la traslación para garantizar que ambos objetos mantengan una velocidad constante de `speed` unidades por segundo sin importar la tasa de refresco (FPS).
-
 ---
 
 ![Demostración Ejercicio 9](media/Ejercicio9.gif)
